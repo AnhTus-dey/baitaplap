@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+/*Hàm tìm số đảo ngược trong JavaScript*/
+function reverse_num(n){ 
+  n = n.toString()
+  return n.split("").reverse().join("");
+}
+
+let n= prompt(" nhap mot so nguyen duong: ");
+console.log("So dao nguoc: " +reverse_num(n));
+
+    </script>
+</body>
+</html>
